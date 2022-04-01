@@ -1,7 +1,8 @@
 const express = require('express')
-const path = require('path')
-const routes = require('./routes')
 const server = express()
+const routes = require('./routes')
+const path = require('path')
+
 
 // Template engine
 server.set('view engine', 'ejs')
