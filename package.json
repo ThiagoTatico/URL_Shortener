@@ -4,14 +4,13 @@
   "description": "URL shortener",
   "main": "src/server.js",
   "scripts": {
-    "dev": "nodemon -r dotenv/config .",
+    "dev": "nodemon .",
     "init_db": "node src/db/init.js"
   },
   "keywords": [],
   "author": "Thiago Tatico",
   "license": "MIT",
   "dependencies": {
-    "dotenv": "^16.0.0",
     "ejs": "^3.1.6",
     "express": "^4.17.3",
     "sqlite": "^4.0.25",

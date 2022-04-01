@@ -12,7 +12,7 @@
 
       <div class="stats">
         <p>
-          <b> <%= process.env.DOMAIN %><%= code %> </b>
+          <b> http://localhost:3000/<%= code %> </b>
         </p>
 
         <p>
@@ -20,15 +20,7 @@
           <%= url %>
         </p>
         <div class="statsRow">
-          <div class="statsBox">
-            <b> <%= hits %> </b>
-            <p>Visits</p>
-          </div>
 
-          <div class="statsBox">
-            <p>Last visit</p>
-            <b> <%= updatedAt %> </b>
-          </div>
         </div>
         <a href="/" class="btn btn-primary">Shortener a new URL</a>
       </div>
