@@ -3,7 +3,6 @@ const server = express()
 const routes = require('./routes')
 const path = require('path')
 
-
 // Template engine
 server.set('view engine', 'ejs')
 

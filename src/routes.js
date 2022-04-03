@@ -13,7 +13,7 @@ routes.get('/:code', async (req, res, next) => {
 
   if (!dbData) return res.sendStatus(404)
 
-  res.redirect(dbData.url) // mostrar a url original salva no DB
+  res.redirect(dbData.url)
 })
 
 // GET home page.
